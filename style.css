@@ -1,0 +1,20 @@
+.prymol1{
+    width: 150px;
+    height: 75px;
+    border: solid;
+    transform: skew(20deg);
+    position: absolute;
+    left: 20px;
+    background-color: black;
+}
+
+.prymol2{
+    width: 150px;
+    height: 75px;
+    border: 1px solid gray;
+    transform: skew(20deg);
+    position: absolute;
+    top: 35px;
+    left: 55px;
+    background-color: white;
+}
