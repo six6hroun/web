@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+}
+
+canvas{
+    background-color: grey;
+    border: 2px solid white;
+}
+
+.text h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.blue{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-right: 60px;
+}
+
+.orange{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: 60px;
+}
+
+.blue h1{
+    color: blue;
+}
+
+.orange h1{
+    color: orange;
+}
