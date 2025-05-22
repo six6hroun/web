@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="css/date.css">
+</head>
+<body>
+    <div class = "all">
+
+        <div class = "number">
+            <button class = "accordion">Задание 1 - Дата/время</button>
+            <div class = "accordion_content">
+                <h2 id="datetime"></h2>
+            </div>
+        </div>
+        
+
+        <div class = "number">
+            <button class = "accordion">Задание 2 - Календарь</button>
+            <div class = "accordion_content"></div>
+        </div>
+        
+
+        <div class = "number">
+            <button class = "accordion">Задание 3 - Нахождение элементов в DOM-дереве, только списков</button>
+            <div class = "accordion_content">
+                <h2></h2>
+            </div>
+        </div>
+
+        <div class = "number">
+            <button class = "accordion" id = "startButton">Задание 4 - Изменение объекта. Через указанный промежуток времени 80мс отображать текст в одном из блоков. Номер блока выбирается последовательно</button>
+            <div class = "accordion_content">
+                <div class = "numberv">
+                    <button class = "accordion" id = "Button" style="color: black;">Блок 1</button>
+                    <div class = "accordion_content">
+                        <h2>Текст 1</h2>
+                    </div>
+                </div>
+
+                <div class = "numberv">
+                    <button class = "accordion" id = "Button" style="color: black;">Блок 2</button>
+                    <div class = "accordion_content">
+                        <h2>Текст 2</h2>
+                    </div>
+                </div>
+
+                <div class = "numberv">
+                    <button class = "accordion" id = "Button" style="color: black;">Блок 3</button>
+                    <div class = "accordion_content">
+                        <h2>Текст 3</h2>
+                    </div>
+                </div>
+
+                <div class = "numberv">
+                    <button class = "accordion" id = "Button" style="color: black;">Блок 4</button>
+                    <div class = "accordion_content">
+                        <h2>Текст 4</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+
+        <div class = "number">
+            <button class = "accordion">Задание 5 - Динамический список с обменом элементов</button>
+            <div class = "accordion_content">
+                <button id="createlist">Создать список</button>
+                <button id="swap">Поменять местами элементы</button>
+                <ol id="speesok"></ol>
+            </div>
+        </div>
+
+        <div class="number">
+            <button class="accordion">Задание 6 - Выход курсора за границу блока и изменение его цвета </button>
+            <div class="accordion_content">
+                <h2>Наведи и убери курсор</h2>
+                <div class = "colored" id="Color"></div>
+            </div>
+        </div>
+
+        <div class = "number">
+            <button class = "accordion">Задание 7 - Меню со сладостями</button>
+            <div class = "accordion_content">
+                <button class="but">Здесь сладости (нажми меня!)</button>
+                <div class="list" style = "display: none;">
+                    <ul>
+                        <li>Клубника</li>
+                        <li>Шоколад</li>
+                        <li>Конфета</li>
+                    </ul>
+                </div>
+
+                <p id="mes" style="display: none;">Сладости закончились!</p>
+            </div>
+        </div>
+
+
+        <div class = "number">
+            <button class = "accordion">Задание 8 - Плавное исчезновение картины</button>
+            <div class = "accordion_content">
+                <div class="image" id="imgcon">
+                    <img id="photo" src="photo_2025-04-15_13-12-37.jpg" alt="Frog">
+                    <div class="imgtext" id="textik">Лягушка прогер</div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "number">
+            <button class = "accordion">Задание 9-10 - Анкета</button>
+            <div class = "accordion_content">
+                <div class="allik">
+                    <form id="myForm" action="#" method="post">
+                        <label for="name">Имя*:</label>
+                        <input type="text" id="name" name="name"><br><br>
+                      
+                        <label for="login">Логин*:</label>
+                        <input type="text" id="login" name="login"><br><br>
+                      
+                        <label for="password">Пароль*:</label>
+                        <input type="password" id="password" name="password"><br><br>
+                      
+                        <label for="repeatPassword">Повторите пароль*:</label>
+                        <input type="password" id="repeatPassword" name="repeatPassword"><br><br>
+
+                        <label for="email">Почта email:</label>
+                        <input type="text" id="email" name="email"><br><br>
+
+                        <label for="expa">Опыт работы:</label>
+                        <input type="text" id="expa" name="expa"><br><br>
+
+                        <label for="stup">Ступень:</label>
+                        <select id="stup" name="stup">
+                            <option value="Вариант 1" disabled selected hidden>Выберите</option>
+                            <option value="Вариант 2">Бакалавар</option>
+                            <option value="Вариант 3">Магистр</option>
+                            <option value="Вариант 4">Аспирант</option>
+                        </select><br><br>
+
+                        <label for="uni">Университет:</label>
+                        <select id="uni" name="uni">
+                            <option value="Вариант 1" disabled selected hidden>Университет</option>
+                            <option value="Вариант 2">КубГУ</option>
+                            <option value="Вариант 3">КубГАУ</option>
+                            <option value="Вариант 4">КубГТУ</option>
+                        </select><br><br>
+
+                        <label for="side">О себе*:</label>
+                        <textarea id="side" name="side" rows="4" cols="50"></textarea><br><br>
+
+                        <label for="skill">Навыки*:</label>
+                        <textarea id="skill" name="skill" rows="4" cols="50"></textarea><br><br>
+
+                        <label for="data">Дата рождения:</label>
+                        <input type="date" id="data" name="data"><br><br>
+
+                        <p>Выберете пол</p>
+
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Мужской</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Женский</label><br>
+                        <input type="radio" id="none" name="gender" value="non">
+                        <label for="male">Не скажу</label><br><br>
+
+                        <input type="submit" value="Зарегистрироваться">
+                      </form>
+                      
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+
+    <script src="jss/date.js"></script>
+</body>
+</html>

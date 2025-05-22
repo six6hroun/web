@@ -1,0 +1,120 @@
+.all{
+    background-color: rgb(204, 113, 43);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.number{
+    border: solid;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.accordion {
+    background-color: #ffffff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+
+.accordion:hover {
+    background-color: #cacaca;
+}
+
+
+.accordion_content {
+    border-top: 1px solid #444;
+    padding: 18px 18px;
+    overflow: hidden;
+    background-color: white;
+    display: none;
+}
+
+.numberv{
+    border: solid;
+    background-color: white;
+    display: inline-block;
+}
+
+.colored{
+    margin: auto;
+    width: 200px; 
+    height: 100px; 
+    border: 1px solid #000;
+}
+
+#speesok {
+    padding-left: 20px;
+    list-style-position: inside;
+    text-align: left;
+    margin: 0;
+}
+
+#speesok li {
+    margin: 4px 0;
+    padding: 2px 5px;
+    display: list-item;
+}
+
+.image {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.imgtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    pointer-events: none;
+}
+
+.allik{
+    background-color: grey;
+}
+
+#myForm{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.invalid {
+    border: 1px solid red !important;
+}
+    
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
