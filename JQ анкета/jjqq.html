@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jq анкета</title>
+    <link rel="stylesheet" href="css/jjqq.css">
+</head>
+<body>
+    <div class="allik">
+        <form id="myForm" action="#" method="post">
+            <label for="name">Имя*:</label>
+            <input type="text" id="name" name="name"><br><br>
+          
+            <label for="login">Логин*:</label>
+            <input type="text" id="login" name="login"><br><br>
+          
+            <label for="password">Пароль*:</label>
+            <input type="password" id="password" name="password"><br><br>
+          
+            <label for="repeatPassword">Повторите пароль*:</label>
+            <input type="password" id="repeatPassword" name="repeatPassword"><br><br>
+    
+            <label for="email">Почта email:</label>
+            <input type="text" id="email" name="email"><br><br>
+    
+            <label for="expa">Опыт работы:</label>
+            <input type="text" id="expa" name="expa"><br><br>
+    
+            <label for="stup">Ступень:</label>
+            <select id="stup" name="stup">
+                <option value="Вариант 1" disabled selected hidden>Выберите</option>
+                <option value="Вариант 2">Бакалавар</option>
+                <option value="Вариант 3">Магистр</option>
+                <option value="Вариант 4">Аспирант</option>
+            </select><br><br>
+    
+            <label for="uni">Университет:</label>
+            <select id="uni" name="uni">
+                <option value="Вариант 1" disabled selected hidden>Университет</option>
+                <option value="Вариант 2">КубГУ</option>
+                <option value="Вариант 3">КубГАУ</option>
+                <option value="Вариант 4">КубГТУ</option>
+            </select><br><br>
+    
+            <label for="side">О себе*:</label>
+            <textarea id="side" name="side" rows="4" cols="50"></textarea><br><br>
+    
+            <label for="skill">Навыки*:</label>
+            <textarea id="skill" name="skill" rows="4" cols="50"></textarea><br><br>
+    
+            <label for="data">Дата рождения:</label>
+            <input type="date" id="data" name="data"><br><br>
+    
+            <p>Выберете пол</p>
+    
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Мужской</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Женский</label><br>
+            <input type="radio" id="none" name="gender" value="non">
+            <label for="male">Не скажу</label><br><br>
+    
+            <input type="submit" value="Зарегистрироваться">
+          </form>
+          
+    </div>
+    <script src="js/jjqq.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
